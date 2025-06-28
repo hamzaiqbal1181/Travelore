@@ -8,19 +8,7 @@ const About = () => {
           <h1 className="my-8 border-l-8 border-blue-500 py-2 pl-2 text-3xl font-bold">
             About us
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eaque
-            soluta amet a quasi, maxime vel? Omnis laborum, non dolore
-            cupiditate debitis nisi sint, earum sit consequuntur, pariatur hic
-            dolorum exercitationem est? Explicabo perferendis tempore officiis
-            omnis officia quasi veritatis. Possimus officia nulla sunt vitae ab
-            voluptatum, incidunt natus quaerat delectus aspernatur. Ipsa ab modi
-            ad. Adipisci error quo nulla suscipit. Maiores odit velit totam odio
-            ab perferendis ea impedit placeat. Consequatur, ipsam. Similique
-            ducimus neque consectetur ullam facere, architecto, sit in totam
-            nesciunt officia necessitatibus maiores ea rem tenetur id, expedita
-            ut culpa doloremque praesentium perspiciatis? Saepe, quisquam ex.
-          </p>
+          <p>Hamza Iqbal Cake.</p>
           <p>
             Hamza Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
             dolore. Voluptatum repellat rerum at commodi quisquam qui

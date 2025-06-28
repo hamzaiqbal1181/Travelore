@@ -8,7 +8,11 @@ const About = () => {
           <h1 className="my-8 border-l-8 border-blue-500 py-2 pl-2 text-3xl font-bold">
             About us
           </h1>
-          <p>Hamza Iqbal Cake.</p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Distinctio, sequi. Alias perferendis tempore sint eos cupiditate
+            natus. Hic, doloribus architecto.
+          </p>
           <p>
             Hamza Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
             dolore. Voluptatum repellat rerum at commodi quisquam qui

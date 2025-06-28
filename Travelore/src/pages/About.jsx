@@ -9,9 +9,18 @@ const About = () => {
             About us
           </h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Distinctio, sequi. Alias perferendis tempore sint eos cupiditate
-            natus. Hic, doloribus architecto.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
+            eaque veniam quam pariatur impedit animi aut sunt iste nesciunt
+            reprehenderit! Cum, ratione nesciunt veritatis sint itaque
+            excepturi. Unde dolores, laboriosam delectus culpa est illum illo
+            eveniet blanditiis rerum ut architecto nemo repellendus libero
+            nostrum voluptas quibusdam iure, ex quam expedita repudiandae
+            debitis beatae fuga? Saepe velit quia quo eos esse ipsam beatae
+            eligendi consequuntur. Quam et neque totam accusamus vitae
+            doloremque consequuntur quo accusantium? Vitae cupiditate voluptatem
+            delectus maxime odit nostrum ratione est adipisci doloribus, minus
+            corrupti amet illo recusandae quo? Accusantium deleniti hic quia
+            magni nisi, quae veniam error!.
           </p>
           <p>
             Hamza Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,

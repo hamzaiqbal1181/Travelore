@@ -1,21 +1,19 @@
-
-const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
+const GEMINI_API_URL =
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
 
 export async function chatWithGemini(message, apiKey) {
   const response = await fetch(GEMINI_API_URL, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "X-goog-api-key": apiKey
+      "X-goog-api-key": apiKey,
     },
     body: JSON.stringify({
       contents: [
         {
-          parts: [
-            { text: message }
-          ]
-        }
-      ]
+          parts: [{ text: message }],
+        },
+      ],
     }),
   });
 

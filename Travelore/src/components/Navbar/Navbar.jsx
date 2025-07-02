@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
+import useAuthState from "../../hooks/useAuthState";
+import { signOut } from "firebase/auth";
+import { auth } from "../../firebase";
 // NEW: Importing a sleek icon for our new logo and removing the old LogoImg import
 import { IoPaperPlaneOutline } from "react-icons/io5";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
@@ -57,6 +60,14 @@ const Navbar = () => {
     const baseClasses =
       "text-gray-700 hover:text-sky-600 transition-colors duration-300 font-medium px-3 py-2 rounded-md";
     return isActive ? `text-sky-600 bg-sky-100 ${baseClasses}` : baseClasses;
+  };
+
+  const { user } = useAuthState();
+  const navigate = useNavigate();
+
+  const handleSignOut = async () => {
+    await signOut(auth);
+    navigate("/signin");
   };
 
   return (
@@ -157,9 +168,21 @@ const Navbar = () => {
 
             {/* STYLING UPDATE: Modern, solid Call-to-Action button */}
             <div className="flex items-center gap-4">
-              <button className="bg-sky-500 text-white px-5 py-2 rounded-full font-semibold hover:bg-sky-600 transition-colors duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
-                Sign-in
-              </button>
+              {user ? (
+                <button
+                  onClick={handleSignOut}
+                  className="bg-red-500 text-white px-5 py-2 rounded-full font-semibold hover:bg-red-600 transition-colors duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                >
+                  Sign Out
+                </button>
+              ) : (
+                <Link
+                  to="/signin"
+                  className="bg-sky-500 text-white px-5 py-2 rounded-full font-semibold hover:bg-sky-600 transition-colors duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                >
+                  Sign In
+                </Link>
+              )}
               <div className="md:hidden block">
                 {showMenu ? (
                   <HiMenuAlt1

@@ -1,5 +1,6 @@
 import React from "react";
 import { IoClose, IoAddCircleOutline } from "react-icons/io5";
+import Chatbot from "../Chatbot";
 
 // This array holds the data for the suggestion cards, making the code cleaner.
 const suggestions = [
@@ -43,22 +44,10 @@ const Popup = ({ onClose }) => {
           Welcome to AI Studio
         </h1>
 
-        {/* Input Area */}
-        <div className="relative mb-6">
-          <input
-            type="text"
-            placeholder="Generate a collection of elementary math worksheet for addition and subtracti..."
-            className="w-full bg-[#3a3f4b] rounded-full py-3 pl-6 pr-40 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
-          <div className="absolute inset-y-0 right-3 flex items-center space-x-2 md:space-x-4">
-            <IoAddCircleOutline
-              size={24}
-              className="text-gray-400 cursor-pointer hover:text-white"
-            />
-            <button className="bg-[#3a3f4b] py-2 px-4 md:px-6 rounded-full hover:bg-gray-600 transition-colors text-sm md:text-base">
-              Run <span className="hidden sm:inline text-gray-400">Ctrl+↵</span>
-            </button>
-          </div>
+
+        {/* Gemini Chatbot */}
+        <div className="my-8">
+          <Chatbot />
         </div>
 
         {/* "What's new" section */}

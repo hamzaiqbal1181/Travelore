@@ -22,7 +22,10 @@ const SignUp = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <form onSubmit={handleSignUp} className="bg-white p-8 rounded shadow-md w-full max-w-md">
+      <form
+        onSubmit={handleSignUp}
+        className="bg-white p-8 rounded shadow-md w-full max-w-md"
+      >
         <h2 className="text-2xl font-bold mb-6 text-center">Sign Up</h2>
         {error && <div className="text-red-500 mb-4">{error}</div>}
         <input
@@ -41,11 +44,16 @@ const SignUp = () => {
           onChange={(e) => setPassword(e.target.value)}
           required
         />
-        <button type="submit" className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 mb-4">
+        <button
+          type="submit"
+          className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 mb-4"
+        >
           Sign Up
         </button>
         <div className="flex justify-between text-sm">
-          <Link to="/signin" className="text-blue-600 hover:underline">Sign In</Link>
+          <Link to="/signin" className="text-blue-600 hover:underline">
+            Sign In
+          </Link>
         </div>
       </form>
     </div>

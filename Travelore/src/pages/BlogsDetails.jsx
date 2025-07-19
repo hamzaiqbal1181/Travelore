@@ -10,7 +10,7 @@ const BlogsDetails = (props) => {
 
   return (
     <>
-      <div className=" pt-20">
+      <div className=" pt-20 pl-10 pr-10">
         <div className="h-[300px] overflow-hidden">
           <img
             src={image}

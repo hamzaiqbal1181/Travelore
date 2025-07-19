@@ -28,14 +28,12 @@ const Banner = () => {
                 className="text-sm text-gray-500 tracking-wide leading-8"
               >
                 {" "}
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-                reiciendis inventore iste ratione ex alias quis magni at optio
-                ratione ex alias quis magni at optio Lorem ipsum, dolor sit amet
-                consectetur adipisicing elit. Eaque reiciendis inventore iste
-                ratione ex alias quis magni at optio ratione ex alias quis magni
-                at optio Lorem ipsum, dolor sit amet consectetur adipisicing
-                elit. Eaque reiciendis inventore iste ratione ex alias quis
-                magni at optio ratione ex alias quis magni at optio
+                Lahore is a city brimming with history, culture, and
+                unforgettable flavors. From its ancient forts to its bustling
+                food streets, there are countless treasures to uncover. We
+                handle all the planning—from your flight and hotel to your local
+                food adventures—so you can enjoy a seamless and memorable trip.
+                Your perfect Lahore journey starts here.
               </p>
               {/* <div>
                 <div className="grid grid-cols-2 gap-6 mt-6">

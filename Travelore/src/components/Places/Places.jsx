@@ -54,7 +54,7 @@ const AllPlacesData = [
       "The Lahore Fort is a giant storybook of red sandstone and white marble. Built over centuries, primarily by Mughal emperors, it's a breathtaking mix of powerful defensive walls and exquisite palaces. From Akbar’s imposing gates to Shah Jahan’s shimmering Sheesh Mahal (Palace of Mirrors), it showcases imperial power and artistry. The Lahore Fort is a giant storybook of red sandstone and white marble. Built over centuries, primarily by Mughal emperors, it's a breathtaking mix of powerful defensive walls and exquisite palaces.",
     type: "Historical",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.442918882519!2d74.31193931511516!3d31.59473998137266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b5c23d83d61%3A0x4649446e582f34be!2sLahore%20Fort!5e0!3m2!1sen!2s!4v1672585000001!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.6660646360588!2d74.31284847442842!3d31.588204043789645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b622e82346f%3A0x35bdc71e324cb4ec!2sLahore%20Fort!5e0!3m2!1sen!2s!4v1753000472161!5m2!1sen!2s",
   },
   {
     id: 2,

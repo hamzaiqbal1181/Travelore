@@ -17,6 +17,30 @@ import Img9 from "../../assets/places/hammam.jpg";
 import Img10 from "../../assets/places/gate.jpg";
 import Img11 from "../../assets/places/museum.jpg";
 import Img12 from "../../assets/places/bagh.jpg";
+import Img13 from "../../assets/places/anarkali.jpg";
+import Img14 from "../../assets/places/liberty.jpg";
+import Img15 from "../../assets/places/pakages.jpg";
+import Img16 from "../../assets/places/emporium.jpg";
+import Img17 from "../../assets/places/fotress.jpg";
+import Img18 from "../../assets/places/ichara.jpg";
+import Img19 from "../../assets/places/shahalem.jpg";
+import Img20 from "../../assets/places/amanah.jpg";
+import Img21 from "../../assets/places/emporium.jpg";
+import Img22 from "../../assets/places/anarkali.jpg";
+import Img23 from "../../assets/places/mall.jpg";
+import Img24 from "../../assets/places/yblock.jpg";
+import Img25 from "../../assets/places/gawal.jpg";
+import Img26 from "../../assets/places/fortfood.jpg";
+import Img27 from "../../assets/places/lakshmi.jpg";
+import Img28 from "../../assets/places/butt.jpg";
+import Img29 from "../../assets/places/gawal.jpg";
+import Img30 from "../../assets/places/alfazal.jpg";
+import Img31 from "../../assets/places/hareesa.jpg";
+import Img32 from "../../assets/places/goga.jpg";
+import Img33 from "../../assets/places/waris.jpg";
+import Img34 from "../../assets/places/yasir.jpg";
+import Img35 from "../../assets/places/kulfa.jpg";
+import Img36 from "../../assets/places/arif.jpg";
 
 // --- COMPLETE DATA ARRAY WITH ALL 36 ITEMS AND MAP URLs ---
 const AllPlacesData = [
@@ -157,7 +181,7 @@ const AllPlacesData = [
   // --- Shopping Places (12) ---
   {
     id: 13,
-    img: Img1, // Placeholder
+    img: Img13, // Placeholder
     title: "Anarkali Bazaar",
     location: "Lahore",
     description:
@@ -168,7 +192,7 @@ const AllPlacesData = [
   },
   {
     id: 14,
-    img: Img10, // Placeholder
+    img: Img14, // Placeholder
     title: "Liberty Market",
     location: "Lahore",
     description:
@@ -179,7 +203,7 @@ const AllPlacesData = [
   },
   {
     id: 15,
-    img: Img4, // Placeholder
+    img: Img15, // Placeholder
     title: "Packages Mall",
     location: "Lahore",
     description:
@@ -190,7 +214,7 @@ const AllPlacesData = [
   },
   {
     id: 16,
-    img: Img1, // Placeholder
+    img: Img16, // Placeholder
     title: "Emporium Mall",
     location: "Lahore",
     description:
@@ -201,7 +225,7 @@ const AllPlacesData = [
   },
   {
     id: 17,
-    img: Img2, // Placeholder
+    img: Img17, // Placeholder
     title: "Fortress Square",
     location: "Lahore",
     description:
@@ -212,7 +236,7 @@ const AllPlacesData = [
   },
   {
     id: 18,
-    img: Img3, // Placeholder
+    img: Img18, // Placeholder
     title: "Ichhra Bazaar",
     location: "Lahore",
     description:
@@ -223,7 +247,7 @@ const AllPlacesData = [
   },
   {
     id: 19,
-    img: Img5, // Placeholder
+    img: Img19, // Placeholder
     title: "Shah Alam Market",
     location: "Lahore",
     description:
@@ -234,7 +258,7 @@ const AllPlacesData = [
   },
   {
     id: 20,
-    img: Img6, // Placeholder
+    img: Img20, // Placeholder
     title: "Pace Shopping Mall",
     location: "Lahore",
     description:
@@ -245,7 +269,7 @@ const AllPlacesData = [
   },
   {
     id: 21,
-    img: Img7, // Placeholder
+    img: Img21, // Placeholder
     title: "Xinhua Mall",
     location: "Lahore",
     description:
@@ -256,7 +280,7 @@ const AllPlacesData = [
   },
   {
     id: 22,
-    img: Img8, // Placeholder
+    img: Img22, // Placeholder
     title: "Hafeez Center",
     location: "Lahore",
     description:
@@ -267,7 +291,7 @@ const AllPlacesData = [
   },
   {
     id: 23,
-    img: Img9, // Placeholder
+    img: Img23, // Placeholder
     title: "Al-Fatah",
     location: "Lahore",
     description:
@@ -278,7 +302,7 @@ const AllPlacesData = [
   },
   {
     id: 24,
-    img: Img11, // Placeholder
+    img: Img24, // Placeholder
     title: "Y-Block Market",
     location: "Lahore",
     description:
@@ -291,7 +315,7 @@ const AllPlacesData = [
   // --- Food Points (12) ---
   {
     id: 25,
-    img: Img3, // Placeholder
+    img: Img25, // Placeholder
     title: "Gawalmandi Food Street",
     location: "Lahore",
     description:
@@ -302,7 +326,7 @@ const AllPlacesData = [
   },
   {
     id: 26,
-    img: Img3, // Placeholder
+    img: Img26, // Placeholder
     title: "Fort Road Food Street",
     location: "Lahore",
     description:
@@ -313,7 +337,7 @@ const AllPlacesData = [
   },
   {
     id: 27,
-    img: Img10, // Placeholder
+    img: Img27, // Placeholder
     title: "Lakshmi Chowk",
     location: "Lahore",
     description:
@@ -324,7 +348,7 @@ const AllPlacesData = [
   },
   {
     id: 28,
-    img: Img1, // Placeholder
+    img: Img28, // Placeholder
     title: "Butt Karahi",
     location: "Lahore",
     description:
@@ -335,7 +359,7 @@ const AllPlacesData = [
   },
   {
     id: 29,
-    img: Img2, // Placeholder
+    img: Img29, // Placeholder
     title: "Phajje de Paye",
     location: "Lahore",
     description:
@@ -346,7 +370,7 @@ const AllPlacesData = [
   },
   {
     id: 30,
-    img: Img4, // Placeholder
+    img: Img30, // Placeholder
     title: "Al-Fazal Foods",
     location: "Lahore",
     description:
@@ -357,7 +381,7 @@ const AllPlacesData = [
   },
   {
     id: 31,
-    img: Img5, // Placeholder
+    img: Img31, // Placeholder
     title: "Amritsari Hareesa",
     location: "Lahore",
     description:
@@ -368,7 +392,7 @@ const AllPlacesData = [
   },
   {
     id: 32,
-    img: Img6, // Placeholder
+    img: Img32, // Placeholder
     title: "Goga Naqeebia",
     location: "Lahore",
     description:
@@ -379,7 +403,7 @@ const AllPlacesData = [
   },
   {
     id: 33,
-    img: Img7, // Placeholder
+    img: Img33, // Placeholder
     title: "Waris Nihari",
     location: "Lahore",
     description:
@@ -390,7 +414,7 @@ const AllPlacesData = [
   },
   {
     id: 34,
-    img: Img8, // Placeholder
+    img: Img34, // Placeholder
     title: "Yasir Broast",
     location: "Lahore",
     description:
@@ -401,7 +425,7 @@ const AllPlacesData = [
   },
   {
     id: 35,
-    img: Img9, // Placeholder
+    img: Img35, // Placeholder
     title: "Benazir Kulfa",
     location: "Lahore",
     description:
@@ -412,7 +436,7 @@ const AllPlacesData = [
   },
   {
     id: 36,
-    img: Img12, // Placeholder
+    img: Img36, // Placeholder
     title: "Arif Chatkhara",
     location: "Lahore",
     description:

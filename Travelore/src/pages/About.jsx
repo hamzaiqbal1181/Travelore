@@ -7,9 +7,9 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 // --- IMPORT YOUR LOCAL IMAGES ---
 // These images are imported from your project's assets folder.
-import HeroImage from "../assets/places/anarkali.jpg"; // Using Lahore Fort for the hero section
-import MissionImg from "../assets/places/fort.jpg"; // Using Shalimar Garden for the mission section
-import ProfilePic from "../assets/places/shalimar.jpg"; // Your personal profile picture
+import HeroImage from "../assets/places/wall.jpg"; // Using Lahore Fort for the hero section
+import MissionImg from "../assets/places/college.jpg"; // Using Shalimar Garden for the mission section
+import ProfilePic from "../assets/places/gumbad.jpg"; // Your personal profile picture
 
 const About = () => {
   // --- ASSIGN IMPORTED IMAGES TO VARIABLES ---
@@ -20,9 +20,14 @@ const About = () => {
   return (
     <div className="bg-gray-50 text-gray-800">
       {/* 1. Hero Section */}
+      // This is JUST the header part. Use this to replace your old header if
+      you prefer this style.
       <header
-        className="relative bg-cover bg-center h-[50vh] text-white flex items-center justify-center"
-        style={{ backgroundImage: `url(${heroBgImage})` }}
+        // Corrected Tailwind classes: pt-20 adds padding to account for a navbar.
+        className="relative bg-cover bg-center h-[50vh] text-white flex items-center justify-center pt-20"
+        style={{
+          backgroundImage: `url(${heroBgImage})`,
+        }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="relative text-center z-10 px-4">
@@ -35,13 +40,12 @@ const About = () => {
           </p>
         </div>
       </header>
-
       <main className="container mx-auto py-16 px-6 md:px-12">
         {/* 2. Our Mission Section */}
         <section className="mb-20">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="text-content">
-              <h2 className="text-3xl font-bold text-sky-700 mb-4">
+              <h2 className="text-3xl font-bold text-black mb-4">
                 Why We Built This
               </h2>
               <p className="mb-4 text-lg leading-relaxed">
@@ -71,12 +75,12 @@ const About = () => {
 
         {/* 3. Our Approach Section */}
         <section className="text-center mb-20">
-          <h2 className="text-3xl font-bold text-sky-700 mb-10">
+          <h2 className="text-3xl font-bold text-black mb-10">
             Our Core Principles
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
-              <FaUserFriends size={48} className="mx-auto text-sky-600 mb-4" />
+              <FaUserFriends size={48} className="mx-auto text-black mb-4" />
               <h3 className="text-xl font-semibold mb-2">
                 User-Centric Design
               </h3>
@@ -86,7 +90,7 @@ const About = () => {
               </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
-              <FaLaptopCode size={48} className="mx-auto text-sky-600 mb-4" />
+              <FaLaptopCode size={48} className="mx-auto text-black mb-4" />
               <h3 className="text-xl font-semibold mb-2">Modern Technology</h3>
               <p>
                 Built with a modern tech stack including React.js and Tailwind
@@ -94,7 +98,7 @@ const About = () => {
               </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
-              <FaCity size={48} className="mx-auto text-sky-600 mb-4" />
+              <FaCity size={48} className="mx-auto text-black mb-4" />
               <h3 className="text-xl font-semibold mb-2">Passion for Lahore</h3>
               <p>
                 This project is driven by a deep appreciation for Lahore's rich
@@ -107,13 +111,13 @@ const About = () => {
         {/* 4. Meet the Creator Section */}
         <section className="bg-white py-16 px-8 rounded-xl shadow-xl mb-20">
           <div className="text-center max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-sky-700 mb-4">
+            <h2 className="text-3xl font-bold text-black mb-4">
               Meet the Creator
             </h2>
             <img
               src={profileImage} // <-- This now uses your local image
               alt="Your Name"
-              className="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-sky-600"
+              className="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-black"
             />
             <h3 className="text-2xl font-semibold">
               Hamza <span className="text-gray-500">(Your Last Name)</span>

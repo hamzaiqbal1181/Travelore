@@ -87,7 +87,7 @@ const AllPlacesData = [
       "Shalimar Garden in Lahore, built during the Mughal era, is a stunning example of Persian garden design. Established in the 17th century by Emperor Shah Jahan, it features magnificent terraced levels, flowing water channels, and vibrant flora. The garden symbolizes the grandeur of Mughal architecture and serves as a peaceful retreat. Its historical significance and beauty attract numerous visitors each year, making it a cherished heritage site.",
     type: "Historical",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.970222051283!2d74.3831883151154!3d31.58028998136696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191a8a25c5673d%3A0x1d47343e7a68a44!2sShalimar%20Bagh!5e0!3m2!1sen!2s!4v1672586000001!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28000.05080311178!2d77.30076702370853!3d28.689456642289663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfa5397785fe9%3A0x11455fb0396b0f12!2sShalimar%20Garden%2C%20Sahibabad%2C%20Ghaziabad%2C%20Uttar%20Pradesh%2C%20India!5e0!3m2!1sen!2s!4v1753105544560!5m2!1sen!2s",
   },
   {
     id: 5,
@@ -98,7 +98,7 @@ const AllPlacesData = [
       "Sheesh Mehal in Lahore, also known as the Sheesh Mahal, is a stunning example of Mughal architecture. It was constructed in the 17th century for the Mughal Emperor Shah Jahan. The palace is adorned with intricate mirror work, reflecting beautiful patterns and designs. It served as a serenity retreat for the royal family, showcasing the grandeur of its time. Its unique beauty and historical significance make Sheesh Mehal a captivating destination for visitors today.",
     type: "Historical",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.442918882519!2d74.31193931511516!3d31.59473998137266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b5c23d83d61%3A0x4649446e582f34be!2sLahore%20Fort!5e0!3m2!1sen!2s!4v1672585000001!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108755.28823329898!2d74.1813447625!3d31.589939599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b628a9a44bf%3A0x7a342a01b1e8348a!2sSheesh%20Mahal%20Lahore!5e0!3m2!1sen!2s!4v1753105711085!5m2!1sen!2s",
   },
   {
     id: 6,
@@ -109,7 +109,7 @@ const AllPlacesData = [
       "Often called a mole on the cheek of Lahore, the Wazir Khan Mosque is a jewel box of vibrant color. Built in the 17th century during Emperor Shah Jahan's reign by his governor, Wazir Khan, it is a masterpiece of Mughal architecture. Its most unique feature is the breathtaking kashi-kari (faience tile work) that covers nearly every surface, inside and out. These intricate floral and calligraphic mosaics make it one of the most ornately decorated mosques in the world.",
     type: "Historical",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.8906164223413!2d74.3197283151149!3d31.58300898137021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b452e697c5b%3A0x6b803023026338e!2sWazir%20Khan%20Mosque!5e0!3m2!1sen!2s!4v1672585000003!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.8454874606728!2d74.32103957442826!3d31.583284744033115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b68076b3149%3A0x5c8d9d4d735a88e9!2sWazir%20Khan%20Mosque!5e0!3m2!1sen!2s!4v1753105803630!5m2!1sen!2s",
   },
   {
     id: 7,
@@ -120,7 +120,7 @@ const AllPlacesData = [
       "Lahore Railway Station, built in 1860, is a historical landmark showcasing stunning Indo-Saracenic architecture. This bustling hub connects travelers to various destinations across Pakistan. The station features a remarkable clock tower and vibrant platforms, reflecting the city’s cultural heritage. Its location near the heart of Lahore makes it accessible, attracting both locals and tourists. As one of the busiest railway stations, it plays a pivotal role in the transportation network of the region.",
     type: "Historical",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.162791694553!2d74.32997831511476!3d31.57530498136816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b3c75534e55%3A0x4842a5141679032d!2sLahore%20Junction%20railway%20station!5e0!3m2!1sen!2s!4v1672585000004!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.044521807565!2d74.33323707442794!3d31.577826944303247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191bcc2ba725f3%3A0x4d91e7dc439d2403!2sRailway%20Station%20Lahore!5e0!3m2!1sen!2s!4v1753105880298!5m2!1sen!2s",
   },
   {
     id: 8,
@@ -131,7 +131,7 @@ const AllPlacesData = [
       "Zoo Lahore, established in 1872, is one of the oldest zoos in the world, located in Lahore, Pakistan. It covers 38 acres and houses over 1,500 animals from various species. The zoo aims to promote conservation and education, providing an enjoyable experience for visitors. With attractions like the elephant pond and children's petting area, it serves as an engaging venue for families and wildlife enthusiasts.",
     type: "Historical",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.825852503258!2d74.32170831511442!3d31.5564889813759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904e5b7a5796f%3A0x49332085333ed204!2sLahore%20Zoo!5e0!3m2!1sen!2s!4v1672585000005!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.829017105568!2d74.32340257442691!3d31.55630674536783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904b3cdb34b8f%3A0xf51bccc5e247d137!2sLahore%20Zoo!5e0!3m2!1sen!2s!4v1753105939964!5m2!1sen!2s",
   },
   {
     id: 9,
@@ -142,7 +142,7 @@ const AllPlacesData = [
       "Shahi Hammam in Lahore, a historic Mughal bathhouse, showcases exquisite architecture and intricate tile work, reflecting the grandeur of the Mughal era. Established in the 16th century, it served as a lavish relaxation site for royalty. This unique structure features heated water systems, beautifully decorated domes, and serene ambiance, making it a significant cultural landmark. Today, Shahi Hammam stands as a testament to Lahore's rich heritage, attracting visitors who admire its beauty and historical importance.",
     type: "Historical",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.916867373851!2d74.32194931511488!3d31.58223698136997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b44d9f6a27d%3A0x7a837a7836b281b!2sShahi%20Hammam%20(Wazir%20Khan%20Hammam)!5e0!3m2!1sen!2s!4v1672585000006!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.8886279232174!2d74.32342782442822!3d31.582101844091614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b428ebedb6d%3A0x655467c2c3391be9!2sH8JG%2BR98%20Shahi%20Hammam%2C%20Akbari%20Mandi%20Walled%20City%20of%20Lahore%2C%20Lahore%2C%2054000%2C%20Pakistan!5e0!3m2!1sen!2s!4v1753105993579!5m2!1sen!2s",
   },
   {
     id: 10,
@@ -153,7 +153,7 @@ const AllPlacesData = [
       "Delhi Gate in Lahore, a historical monument, dates back to the Mughal era. It served as a crucial entry point to the city, linking the Walled City with the main road. The gate features stunning Mughal architecture, with intricate carvings and large bastions, reflecting the era's grandeur. Today, it stands as a symbol of Lahore's rich history and cultural heritage, attracting numerous visitors who admire its beauty and significance.",
     type: "Historical",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.914909307406!2d74.32230131511488!3d31.58229198136994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b44d701135d%3A0x26b64f9b8723c316!2sDelhi%20Gate!5e0!3m2!1sen!2s!4v1672585000007!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.8861625845557!2d74.32384147442818!3d31.58216944408833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b68276d716b%3A0xc6aec936de69f79f!2sDehli%20Gate!5e0!3m2!1sen!2s!4v1753106058768!5m2!1sen!2s",
   },
   {
     id: 11,
@@ -164,7 +164,7 @@ const AllPlacesData = [
       "The Lahore Museum, established in 1865, boasts an extensive collection showcasing Pakistan's rich history, artifacts, and art. Its stunning architecture and diverse exhibits attract history enthusiasts and tourists alike. Highlights include Gandhara sculptures, Mughal art, and traditional textiles, all reflecting the region's cultural heritage.",
     type: "Historical",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.668516087541!2d74.31682331511451!3d31.56070798137683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904e4a2e557b7%3A0x334a179374020124!2sLahore%20Museum!5e0!3m2!1sen!2s!4v1672585000008!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.3885380080524!2d74.30552197442746!3d31.568391544770094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191ca8f5a906f1%3A0xc5dad8adc056fa92!2sLahore%20Museum!5e0!3m2!1sen!2s!4v1753106118949!5m2!1sen!2s",
   },
   {
     id: 12,
@@ -175,7 +175,7 @@ const AllPlacesData = [
       "Bagh-e-Jinnah, located in Lahore, is a historic park famous for its vibrant gardens and rich history. Established during British colonial rule, it served as a recreational space for locals and visitors alike. The park is home to numerous historical monuments, including the Allama Iqbal Memorial, which honors the famous poet and philosopher. Its lush landscapes and serene atmosphere make it a perfect place for relaxation and cultural gatherings.",
     type: "Historical",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.774577543818!2d74.32420031511446!3d31.55793098137537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904e67d264f7b%3A0x80d8a5438a5b252e!2sBagh-e-Jinnah!5e0!3m2!1sen!2s!4v1672585000009!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.9394922202723!2d74.3280749744268!3d31.55327514551772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904b76ab6ca9b%3A0x8adb100a4d2c6370!2sBagh-e-Jinnah%2C%20Lahore!5e0!3m2!1sen!2s!4v1753106191798!5m2!1sen!2s",
   },
 
   // --- Shopping Places (12) ---
@@ -188,7 +188,7 @@ const AllPlacesData = [
       "Anarkali Bazaar in Lahore has a rich history and is known for its vibrant culture. It offers a unique shopping experience with a variety of goods, from traditional clothing to exquisite handicrafts. This bustling market, named after the legendary Anarkali, provides a glimpse into the city's heritage. Visitors enjoy the lively atmosphere, delicious street food, and the chance to interact with local vendors. Anarkali Bazaar captures the essence of Lahore's charm and is a must-visit destination.",
     type: "Shopping",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.48598150438!2d74.31464131511459!3d31.5658099813753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904e38c01c0c3%3A0xac9530a6e257973!2sAnarkali%20Bazar%20Lahore!5e0!3m2!1sen!2s!4v1672585000010!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13597.392546963783!2d74.30328638868437!3d31.56949976925893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191ca80557d915%3A0x18fe189fe4af33!2sAnarkali%20Bazaar%20Lahore%2C%2054000%2C%20Pakistan!5e0!3m2!1sen!2s!4v1753106268069!5m2!1sen!2s",
   },
   {
     id: 14,
@@ -199,7 +199,7 @@ const AllPlacesData = [
       "Liberty Market in Lahore is a vibrant market known for its unique blend of shopping and food experiences. Established during the British colonial period, it features a variety of shops, including clothing, accessories, and handicrafts. The market attracts locals and tourists alike, offering a lively atmosphere and a taste of local culture. With its bustling streets, it's a popular destination for evening strolls and social gatherings",
     type: "Shopping",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.626511679075!2d74.3328243151141!3d31.534898981383565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904f434241e7f%3A0x2e04b20e633a6b57!2sLiberty%20Market!5e0!3m2!1sen!2s!4v1672585000011!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.5087047500783!2d74.34198532442473!3d31.510185397647277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919045af8941833%3A0xd6b95f4f17c66a16!2sLiberty%20Market%20Gulberg%20III%2C%20Lahore%2C%20Pakistan!5e0!3m2!1sen!2s!4v1753106334970!5m2!1sen!2s",
   },
   {
     id: 15,
@@ -210,7 +210,7 @@ const AllPlacesData = [
       "Packages Mall, located in Lahore, is a major shopping destination. Opened in 2017, it features a wide array of local and international brands, dining options, and entertainment facilities. The mall spans several floors, providing a unique shopping experience for visitors. With its modern architecture and vibrant atmosphere, Packages Mall attracts both locals and tourists, making it one of the busiest shopping centers in the city.",
     type: "Shopping",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.731422792186!2d74.37521131511406!3d31.53225898138448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391905d455555555%3A0x952540191873995!2sPackages%20Mall!5e0!3m2!1sen!2s!4v1672585000012!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.914994928717!2d74.3529672744229!3d31.47152444955583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190680e8f2d445%3A0x32ba63a1571efb2a!2sPackages%20Mall!5e0!3m2!1sen!2s!4v1753106391565!5m2!1sen!2s",
   },
   {
     id: 16,
@@ -221,7 +221,7 @@ const AllPlacesData = [
       "Emporium Mall in Lahore is a prominent shopping center that opened in 2009. It stands out for its expansive retail space, housing numerous local and international brands under one roof. With diverse dining options and entertainment facilities, the mall caters to families and individuals alike. The contemporary architecture adds to its appeal, making it a popular destination for shopping and leisure. Its strategic location enhances accessibility, attracting visitors from various parts of the city.",
     type: "Shopping",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.819448135891!2d74.26415231511364!3d31.50155098140359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391903f67a2418b1%3A0x13a2936750059b06!2sEmporium%20Mall%20by%20Nishat%20Group!5e0!3m2!1sen!2s!4v1672585000013!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.0470945803027!2d74.2634280744227!3d31.467890649735114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391903d4d940f12b%3A0xdb8c83f6699d5226!2sEmporium%20Mall!5e0!3m2!1sen!2s!4v1753106458188!5m2!1sen!2s",
   },
   {
     id: 17,
@@ -232,7 +232,7 @@ const AllPlacesData = [
       "Fortress Square in Lahore is a historic shopping and entertainment venue, renowned for its unique blend of modern architecture and rich cultural heritage. Established in 2015, it has become a popular destination for both locals and tourists, featuring a wide array of shops, restaurants, and recreational areas. The square hosts various events and activities, making it a vibrant hub for social interaction and relaxation. Its strategic location also offers picturesque views of the surrounding landscape and nearby landmarks.",
     type: "Shopping",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.116524317424!2d74.3486303151143!3d31.54848198138133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391905008535a299%3A0x442ca61971701548!2sFortress%20Square!5e0!3m2!1sen!2s!4v1672586000002!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.6985233352925!2d74.36062137442582!3d31.5324391465478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919051cb61188bd%3A0x4d1dcd7c98f3564d!2sFortress%20Square%20Mall!5e0!3m2!1sen!2s!4v1753106510467!5m2!1sen!2s",
   },
   {
     id: 18,
@@ -243,7 +243,7 @@ const AllPlacesData = [
       "Ichhra Bazaar in Lahore has a rich history and is a vibrant marketplace known for its unique blend of traditional and contemporary items. Dating back to the Mughal era, the bazaar is famous for textiles, handicrafts, and street food that captures the essence of local culture. With its bustling atmosphere, Ichhra Bazaar attracts both locals and tourists, offering an immersive shopping experience that reflects Lahore's heritage.",
     type: "Shopping",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.75471848512!2d74.30514131511406!3d31.53163198138472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190289a96e3fab%3A0x1e35a9b7033481e1!2sIchhra%20Bazar!5e0!3m2!1sen!2s!4v1672586000003!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.6942369248895!2d74.31535997442582!3d31.53255684654203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904997f3e5e51%3A0xa42619546060c75c!2sIchhra%20Bazar!5e0!3m2!1sen!2s!4v1753106573717!5m2!1sen!2s",
   },
   {
     id: 19,
@@ -254,7 +254,7 @@ const AllPlacesData = [
       "Shah Alam Market in Lahore has a rich history, established in the late 19th century. Known for its vibrant atmosphere, it offers a diverse range of products, including textiles, electronics, and traditional handicrafts. Its unique architecture reflects Mughal influences, making it a cultural landmark as well. The market is a bustling hub of commerce and a popular destination for both locals and tourists, where shoppers can find everything from souvenirs to everyday items",
     type: "Shopping",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.1309833722955!2d74.31688531511476!3d31.57625198136829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b480b06536b%3A0x334a179374020124!2sShah%20Alam%20Market!5e0!3m2!1sen!2s!4v1672586000004!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.9172488458353!2d74.31586257442814!3d31.581317044130515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191beaad8885a5%3A0x47bca1d1ae9f0de1!2sShalmi%20market!5e0!3m2!1sen!2s!4v1753106670501!5m2!1sen!2s",
   },
   {
     id: 20,
@@ -265,7 +265,7 @@ const AllPlacesData = [
       "Pace Shopping Mall in Lahore has a rich history, opening its doors in 1999. It stands out for its unique blend of shopping, entertainment, and dining options, attracting visitors of all ages. The mall features a variety of local and international brands, along with a food court that offers diverse cuisines. Its modern architecture and vibrant atmosphere make it a popular destination for families and tourists alike, making it an integral part of Lahore's shopping scene.",
     type: "Shopping",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.585573420847!2d74.33535931511413!3d31.53597498138321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904f63c8c7a7f%3A0x8681c37b98d1976a!2sPace%20Shopping%20Mall!5e0!3m2!1sen!2s!4v1672586000005!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.957140486804!2d74.31508517442285!3d31.47036514961314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391907dc891efad1%3A0x10745ba01f02e684!2sPace%20Shopping%20Mall!5e0!3m2!1sen!2s!4v1753106792636!5m2!1sen!2s",
   },
   {
     id: 21,
@@ -276,7 +276,7 @@ const AllPlacesData = [
       "Xinhua Mall in Lahore is a vibrant shopping destination, established to cater to diverse retail needs. Featuring multiple brands, dining options, and entertainment facilities, it offers a unique experience. This modern mall promotes a blend of shopping and leisure, attracting visitors from various backgrounds. Its strategic location enhances accessibility, making it a popular spot for both locals and tourists seeking quality goods and services.",
     type: "Shopping",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.407788417939!2d74.33966931511421!3d31.54044598138249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904f98f6c5897%3A0x139ba8a5f5713c5!2sXinhua%20Mall!5e0!3m2!1sen!2s!4v1672586000006!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.611208931291!2d74.35145487442456!3d31.5073688477864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919044de9441f25%3A0x6f4736cfd417d1bc!2sXinhua%20Mall!5e0!3m2!1sen!2s!4v1753106864152!5m2!1sen!2s",
   },
   {
     id: 22,
@@ -287,7 +287,7 @@ const AllPlacesData = [
       "Hafeez Center in Lahore has a rich history as a leading technology hub. Established in the late 1990s, it has become a one-stop shopping destination for electronics, computers, and mobile devices. The center features numerous shops offering diverse products and services, attracting customers from all over the city. Its modern architecture and vibrant atmosphere make it a popular hotspot for tech enthusiasts and a symbol of Lahore's evolving commercial landscape.",
     type: "Shopping",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.586617300445!2d74.33519831511414!3d31.53594898138323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904f63d001255%3A0x60565597973d803a!2sHafeez%20Center!5e0!3m2!1sen!2s!4v1672586000007!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.2935285997182!2d74.34081047442506!3d31.516097147355243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190458e6945b37%3A0xced4eb1a8c917321!2sHafeez%20Center!5e0!3m2!1sen!2s!4v1753106939748!5m2!1sen!2s",
   },
   {
     id: 23,
@@ -298,7 +298,7 @@ const AllPlacesData = [
       "Al-Fatah Lahore is a renowned shopping destination that offers a variety of products, including clothing, electronics, and home goods. Established in the late 1990s, it quickly gained popularity for its modern retail experience and diverse selection. The store features a spacious layout that is easy to navigate, making it a preferred choice for shoppers in the region. Al-Fatah has become synonymous with quality and value, attracting customers from all walks of life.",
     type: "Shopping",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.626511679075!2d74.3328243151141!3d31.534898981383565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904f434241e7f%3A0x2e04b20e633a6b57!2sLiberty%20Market!5e0!3m2!1sen!2s!4v1672585000011!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.6046861439168!2d74.31101717442328!3d31.48005894913469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190585788a1db1%3A0x6b66c7d393f34ceb!2sAl%20Fatah%20-%20Model%20Town!5e0!3m2!1sen!2s!4v1753107023678!5m2!1sen!2s",
   },
   {
     id: 24,
@@ -309,7 +309,7 @@ const AllPlacesData = [
       "Y-Block Market in Lahore has a rich history, showcasing unique architectural styles and a vibrant shopping atmosphere. Established in the early 1990s, it has evolved into a popular destination for locals and tourists alike, offering diverse shops ranging from trendy boutiques to local crafts. The market also features a variety of eateries that serve delicious cuisine, making it a perfect spot for social gatherings. Its lively ambiance and rich cultural significance make Y-Block Market a must-visit location in Lahore.",
     type: "Shopping",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.184305886617!2d74.3601553151139!3d31.5200389813886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919058b767a652d%3A0x89d892839218e87!2sY%20Block%20Market!5e0!3m2!1sen!2s!4v1672586000008!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.9887880719134!2d74.37132327267909!3d31.46949459273668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190671801790e3%3A0xf687c18b63f0ba6a!2sY%20Block%20Park!5e0!3m2!1sen!2s!4v1753107140590!5m2!1sen!2s",
   },
 
   // --- Food Points (12) ---
@@ -322,7 +322,7 @@ const AllPlacesData = [
       "Gawalmandi Food Street in Lahore is a vibrant culinary destination known for its rich history and diverse street food. Established decades ago, it offers a variety of local delicacies, including chaats, kebabs, and sweet treats. The lively atmosphere attracts locals and tourists alike, making it a hub for food enthusiasts seeking authentic taste experiences. It is particularly famous for its late-night offerings, providing a unique cultural experience in the heart of Lahore.",
     type: "Food",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.443916964205!2d74.3168283151146!3d31.56693898137552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904e3b12384a5%3A0x4a4746279f3237a3!2sFort%20Road%20Food%20Street!5e0!3m2!1sen!2s!4v1672586000009!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.2253720513427!2d74.31896387442775!3d31.572867044548538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b5aece1ce5d%3A0xf3b78889d8efd081!2sGawalmandi%20Food%20St%2C%20Gawalmandi%2C%20Lahore%2C%2054000%2C%20Pakistan!5e0!3m2!1sen!2s!4v1753107252673!5m2!1sen!2s",
   },
   {
     id: 26,
@@ -333,7 +333,7 @@ const AllPlacesData = [
       "Fort Road Food Street in Lahore is a vibrant culinary destination, rich in history and culture. It features an array of stalls serving traditional Pakistani street food, attracting locals and tourists alike. The street is known for its lively atmosphere, where visitors enjoy diverse flavors, from spicy kebabs to sweet desserts. Fort Road's unique charm lies in its blend of heritage and contemporary dining, making it a must-visit spot for food enthusiasts and history lovers.",
     type: "Food",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.558316886498!2d74.31013731511508!3d31.59185098137337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b5b08103f6f%3A0x838a201c3b7e77a!2sFort%20Road%20Food%20Street!5e0!3m2!1sen!2s!4v1672586000010!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.7087478961585!2d74.30900097442837!3d31.58703384384756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b1f6523da25%3A0xd1830bcd99179554!2sFort%20Road%20Food%20Street!5e0!3m2!1sen!2s!4v1753107299940!5m2!1sen!2s",
   },
   {
     id: 27,
@@ -344,7 +344,7 @@ const AllPlacesData = [
       "Lakshmi Chowk in Lahore is a vibrant historical marketplace known for its cultural significance and culinary delights. Established during British colonial rule, it has evolved into a lively hub for shopping and dining. The area is characterized by its unique blend of traditional and modern architecture, drawing both locals and tourists. Visitors can explore a variety of shops, food stalls, and eateries, making it a popular destination for authentic Pakistani cuisine and experience local culture.",
     type: "Food",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.730302302832!2d74.32168931511448!3d31.55914898137562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904e5788e079f%3A0x633add4235e16f2b!2sLakshmi%20Chowk!5e0!3m2!1sen!2s!4v1672586000011!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.4348572454123!2d74.32180602442747!3d31.56712094483289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b4e6cccafe1%3A0xe5445bb2045533fb!2sLakshmi%20Chowk%20Lahore!5e0!3m2!1sen!2s!4v1753107348994!5m2!1sen!2s",
   },
   {
     id: 28,
@@ -355,7 +355,7 @@ const AllPlacesData = [
       "Butt Karahi in Lahore is a famous dish known for its unique, rich flavor and spicy aroma. Originating from the bustling streets of Lahore, this dish features tender meat, usually chicken or mutton, cooked in a vast, deep karahi (wok) with a blend of spices. It is typically served with naan or rice, making it a popular choice among locals and visitors alike. The culinary experience at Butt Karahi combines delicious food with vibrant, sociable dining atmosphere.",
     type: "Food",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.730302302832!2d74.32168931511448!3d31.55914898137562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904e5788e079f%3A0x633add4235e16f2b!2sLakshmi%20Chowk!5e0!3m2!1sen!2s!4v1672586000011!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.434525891075!2d74.32180602411168!3d31.56713003449774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b05a75eef91%3A0x7d69b7ea202a224!2sButt%20Karahi%20Tikka%20by%20Nadeem%20Butt!5e0!3m2!1sen!2s!4v1753107435242!5m2!1sen!2s",
   },
   {
     id: 29,
@@ -366,7 +366,7 @@ const AllPlacesData = [
       "Phajje de Paye, a traditional dish from Lahore, boasts a rich history in Punjabi cuisine. Made with slow-cooked trotters, it is known for its unique flavors and aromatic spices. Often served with naan or rice, this hearty meal is a favorite at local eateries, especially during winter. Its preparation involves simmering the trotters in a flavorful broth, resulting in a dish that is both nutritious and satisfying. This beloved cultural delicacy attracts food lovers seeking an authentic taste of Lahore",
     type: "Food",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.95420950337!2d74.31838631511486!3d31.58120498136952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b452e697c5b%3A0x6b803023026338e!2sWazir%20Khan%20Mosque!5e0!3m2!1sen!2s!4v1672586000012!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.7739992595402!2d74.30996627442833!3d31.58524484393605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191c9e128e4b57%3A0xe0f843da6c0318f6!2sFazal%20Din%20Phajja%20Siri%20Paye%20-%20Since%201953!5e0!3m2!1sen!2s!4v1753107635228!5m2!1sen!2s",
   },
   {
     id: 30,
@@ -377,7 +377,7 @@ const AllPlacesData = [
       "Al-Fazal Foods, based in Lahore, has a rich history that dates back to its establishment in the early 2000s. Known for its quality products and commitment to customer satisfaction, it offers a wide range of food items, including spices, grains, and ready-to-eat meals. The company has built a reputation for excellence in flavors and freshness, making it a popular choice for families and restaurants alike.",
     type: "Food",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.558316886498!2d74.31013731511508!3d31.59185098137337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b5b08103f6f%3A0x838a201c3b7e77a!2sFort%20Road%20Food%20Street!5e0!3m2!1sen!2s!4v1672586000010!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.4103543692786!2d74.30502477442221!3d31.457896150228116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919014d8d0aab31%3A0x78203b42a44f2b6b!2sAl-Fazal%20Restaurant%20%26%20BBQ!5e0!3m2!1sen!2s!4v1753107747109!5m2!1sen!2s",
   },
   {
     id: 31,
@@ -388,7 +388,7 @@ const AllPlacesData = [
       "Amritsari Hareesa from Lahore has a rich history, renowned for its unique taste and quality. This traditional dish, made from lentils and meat, is slow-cooked with special spices, resulting in a flavorful, creamy texture. Served hot, it is often enjoyed with naan and garnished with fresh herbs and lemon. Its origins can be traced back to the Mughal era, making it a beloved culinary staple in Pakistani cuisine.",
     type: "Food",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.730302302832!2d74.32168931511448!3d31.55914898137562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904e5788e079f%3A0x633add4235e16f2b!2sLakshmi%20Chowk!5e0!3m2!1sen!2s!4v1672586000011!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.336741307235!2d74.31766427442759!3d31.56981234469979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b003816a863%3A0xd3f51335c2b3923e!2sAmritsari%20hareesa%20Haji%20raiz!5e0!3m2!1sen!2s!4v1753107829996!5m2!1sen!2s",
   },
   {
     id: 32,
@@ -399,7 +399,7 @@ const AllPlacesData = [
       "Goga Naqeebia in Lahore has a rich history as a popular social spot known for its delicious food and warm atmosphere. It serves traditional Pakistani cuisine and is a favored gathering place for locals and visitors alike. The establishment combines cultural heritage with culinary delight, making it a unique dining experience. Goga Naqeebia's reputation has grown over the years, symbolizing the vibrant food scene in Lahore",
     type: "Food",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.75471848512!2d74.30514131511406!3d31.53163198138472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190289a96e3fab%3A0x1e35a9b7033481e1!2sIchhra%20Bazar!5e0!3m2!1sen!2s!4v1672586000003!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.4758672950234!2d74.30677737442738!3d31.56599594488851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191d41dd7928c1%3A0xda12df3f0e877787!2sGoga%20Naqeebia!5e0!3m2!1sen!2s!4v1753107897400!5m2!1sen!2s",
   },
   {
     id: 33,
@@ -410,7 +410,7 @@ const AllPlacesData = [
       "Waris Nihari in Lahore has a rich history, renowned for its unique and flavorful preparation. This traditional dish, made with slow-cooked meat and spices, is typically enjoyed for breakfast. It originated from Delhi, India, and migrated to Lahore, where it has since become a beloved culinary staple. Served with naan and garnished with ginger and cilantro, Waris Nihari embodies a fusion of culture and taste, attracting food lovers from all walks of life.",
     type: "Food",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.48598150438!2d74.31464131511459!3d31.5658099813753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904e38c01c0c3%3A0xac9530a6e257973!2sAnarkali%20Bazar%20Lahore!5e0!3m2!1sen!2s!4v1672585000010!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.1715014041465!2d74.30952757442783!3d31.574344544475494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b589e36b5e7%3A0xfa8493b09db51f7!2sWaris%20Nihari!5e0!3m2!1sen!2s!4v1753108148843!5m2!1sen!2s",
   },
   {
     id: 34,
@@ -421,7 +421,7 @@ const AllPlacesData = [
       "Yasir Broast in Lahore has a rich history, known for its delicious broasted chicken. Established in the late 1990s, this eatery quickly gained popularity for its unique cooking style, combining pressure cooking and frying. The result is tender, crispy chicken that has become a favorite among locals and visitors alike. With its simple menu and focus on quality, Yasir Broast is a beloved spot for tasty meals and a must-visit for food lovers in the city",
     type: "Food",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.09252321458!2d74.35121931511394!3d31.522227981387813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190586e3557e8b%3A0xb35e7293b1236173!2sDogar%20Restaurant!5e0!3m2!1sen!2s!4v1672585000033!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.477004621717!2d74.30652887442741!3d31.565964744890184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191ddf01b0d907%3A0x1bb0dc8caed2717d!2sYasir%20Broast%20Food%20Pont!5e0!3m2!1sen!2s!4v1753109033902!5m2!1sen!2s",
   },
   {
     id: 35,
@@ -432,7 +432,7 @@ const AllPlacesData = [
       "Benazir Kulfa in Lahore has a rich history that reflects the city's diverse culture. Known for its unique kulfi, a traditional frozen dessert, it offers a delightful experience for locals and visitors alike. This iconic spot attracts food lovers who enjoy its simple, yet delicious offerings. The vibrant atmosphere and historical significance of Benazir Kulfa make it a must-visit destination, capturing the true essence of Lahore and its gastronomic traditions",
     type: "Food",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.585573420847!2d74.33535931511413!3d31.53597498138321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904f63c8c7a7f%3A0x8681c37b98d1976a!2sPace%20Shopping%20Mall!5e0!3m2!1sen!2s!4v1672586000005!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.568953405921!2d74.34314127442468!3d31.508529947729087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919045ac76dc809%3A0xba8238e9811835e9!2sBenazir%20Kulfa!5e0!3m2!1sen!2s!4v1753109289264!5m2!1sen!2s",
   },
   {
     id: 36,
@@ -443,7 +443,7 @@ const AllPlacesData = [
       "Arif Chatkhara in Lahore is famous for its unique blend of traditional flavors and modern twists on classic dishes. Known for its lively atmosphere, it attracts food lovers from all over. Each item on the menu is designed to offer a memorable dining experience, making it a go-to spot for both locals and tourists. With an emphasis on fresh ingredients and innovative recipes, Arif Chatkhara continues to hold a special place in the hearts of its patrons",
     type: "Food",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.09252321458!2d74.35121931511394!3d31.522227981387813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190586e3557e8b%3A0xb35e7293b1236173!2sDogar%20Restaurant!5e0!3m2!1sen!2s!4v1672585000033!5m2!1sen!2s",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.771759832217!2d74.3098979744283!3d31.585306243933076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191d35fc29fed5%3A0x692bfbe8d0a81aa!2sArif%20Chatkhara!5e0!3m2!1sen!2s!4v1753109364183!5m2!1sen!2s",
   },
 ];
 

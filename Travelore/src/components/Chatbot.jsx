@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { chatWithGemini } from "../api/geminiApi";
 import ReactMarkdown from "react-markdown";
+import PageBgImage from "../assets/places/lahore-skyline.jpg";
 
 const GEM_API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
@@ -39,7 +40,7 @@ const Chatbot = () => {
     <div
       className="rounded-lg w-full max-w-3xl mx-auto"
       style={{
-        backgroundImage: "url('/assets/chatbg.jpg')",
+        backgroundImage: `url(${PageBgImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         minHeight: "32rem",

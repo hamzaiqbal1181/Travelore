@@ -473,7 +473,7 @@ const Places = () => {
     <>
       <div className="bg-gray-50 py-10">
         <div className="container mx-auto">
-          <h1 className="my-8 ml-10 border-l-8 border-sky-700 py-2 pl-2 text-3xl font-bold">
+          <h1 className="my-8 ml-1 border-l-8 border-sky-700 py-2 pl-2 text-3xl font-bold">
             Places to Visit
           </h1>
 

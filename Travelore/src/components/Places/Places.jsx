@@ -62,7 +62,7 @@ const AllPlacesData = [
     title: "Minar-e-Pakistan",
     location: "Lahore",
     description:
-      "Minar-e-Pakistan, located in Lahore, commemorates the Lahore Resolution of 1940, when the demand for a separate nation for Muslims in India was made. This iconic tower, built in 1966, stands 70 meters tall and showcases a blend of Islamic and modern architectural styles. Surrounded by a beautiful park, Minar-e-Pakistan serves as a national symbol of pride and unity for Pakistanis, attracting countless visitors each year who come to admire its significance and beauty",
+      "Minar-e-Pakistan, located in Lahore, commemorates the Lahore Resolution of 1940, when the demand for a separate nation for Muslims in India was made. This iconic tower, built in 1966, stands 70 meters tall and showcases a blend of Islamic and modern architectural styles. Surrounded by a beautiful park, Minar-e-Pakistan serves as a national symbol of pride and unity for Pakistanis, attracting countless visitors each year who come to admire its significance and beauty.",
     type: "Historical",
     mapUrl:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.531518342418!2d74.3082833151152!3d31.59251848137356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b5a50e58ebd%3A0x8671b12b5b3e7789!2sMinar-e-Pakistan!5e0!3m2!1sen!2s!4v1672584000000!5m2!1sen!2s",

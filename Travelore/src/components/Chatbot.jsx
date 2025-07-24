@@ -36,8 +36,24 @@ const Chatbot = () => {
   };
 
   return (
-    <div className="bg-[#23272f] rounded-lg w-full max-w-3xl mx-auto">
-      <div className="h-[24rem] overflow-y-auto mb-6 bg-[#1e1f22] rounded p-4">
+    <div
+      className="rounded-lg w-full max-w-3xl mx-auto"
+      style={{
+        backgroundImage: "url('/assets/chatbg.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        minHeight: "32rem",
+        boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.37)",
+      }}
+    >
+      {/* Remove the gray/white overlay and use only a transparent chat area */}
+      <div
+        className="h-[24rem] overflow-y-auto mb-6 rounded p-4"
+        style={{
+          background: "rgba(255,255,255,0.15)", // subtle glass effect for readability
+          backdropFilter: "blur(2px)",
+        }}
+      >
         {messages.map((msg, i) => (
           <div
             key={i}
@@ -49,7 +65,7 @@ const Chatbot = () => {
               className={`inline-block px-3 py-2 rounded ${
                 msg.from === "user"
                   ? "bg-blue-600 text-white"
-                  : "bg-gray-700 text-gray-100"
+                  : "bg-white/80 text-gray-800"
               }`}
             >
               {msg.from === "bot" ? (
@@ -64,7 +80,7 @@ const Chatbot = () => {
       </div>
       <div className="flex p-2 gap-2">
         <input
-          className="flex-1 rounded-l px-5 py-3 bg-[#3a3f4b] text-white focus:outline-none"
+          className="flex-1 rounded-l px-5 py-3 bg-white/90 text-gray-800 focus:outline-none"
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && sendMessage()}

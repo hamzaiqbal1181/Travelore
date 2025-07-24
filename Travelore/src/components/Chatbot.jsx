@@ -77,7 +77,7 @@ const Chatbot = () => {
             </span>
           </div>
         ))}
-        {loading && <div className="text-gray-400">Gemini is typing...</div>}
+        {loading && <div className="text-white">Gemini is typing...</div>}
       </div>
       <div className="flex p-2 gap-2">
         <input

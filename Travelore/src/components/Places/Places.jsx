@@ -2,7 +2,9 @@
 
 import React, { useState } from "react";
 import PlaceCategorySection from "./PlaceCategorySection";
-import PlacePopup from "./PlacePopup";
+// import PlacePopup from "./PlacePopup";
+import PlaceDetailPopup from "./PlaceDetailPopup";
+import MapPopup from "./MapPopup";
 
 // --- ALL YOUR IMAGE IMPORTS ---
 import Img1 from "../../assets/places/fort.jpg";
@@ -47,7 +49,7 @@ const AllPlacesData = [
   // --- Historical Places (12) ---
   {
     id: 1,
-    img: Img1,
+    images: [Img1, Img5, Img6],
     title: "Lahore Fort",
     location: "Lahore",
     description:
@@ -58,7 +60,7 @@ const AllPlacesData = [
   },
   {
     id: 2,
-    img: Img2,
+    images: [Img2, Img5, Img6],
     title: "Minar-e-Pakistan",
     location: "Lahore",
     description:
@@ -69,7 +71,7 @@ const AllPlacesData = [
   },
   {
     id: 3,
-    img: Img3,
+    images: [Img3, Img2, Img6],
     title: "Badshahi Mosque",
     location: "Lahore",
     description:
@@ -80,7 +82,7 @@ const AllPlacesData = [
   },
   {
     id: 4,
-    img: Img4,
+    images: [Img4, Img5, Img6],
     title: "Shalimar Garden",
     location: "Lahore",
     description:
@@ -91,7 +93,7 @@ const AllPlacesData = [
   },
   {
     id: 5,
-    img: Img5,
+    images: [Img5, Img3, Img6],
     title: "Sheesh Mehal",
     location: "Lahore",
     description:
@@ -102,7 +104,7 @@ const AllPlacesData = [
   },
   {
     id: 6,
-    img: Img6,
+    images: [Img6, Img11, Img12],
     title: "Wazir Khan Mosque",
     location: "Lahore",
     description:
@@ -113,7 +115,7 @@ const AllPlacesData = [
   },
   {
     id: 7,
-    img: Img7,
+    images: [Img7, Img6, Img9],
     title: "Railway Station",
     location: "Lahore",
     description:
@@ -124,7 +126,7 @@ const AllPlacesData = [
   },
   {
     id: 8,
-    img: Img8,
+    images: [Img8, Img5, Img2],
     title: "Lahore Zoo",
     location: "Lahore",
     description:
@@ -135,7 +137,7 @@ const AllPlacesData = [
   },
   {
     id: 9,
-    img: Img9,
+    images: [Img9, Img5, Img3],
     title: "Shahi Hammam",
     location: "Lahore",
     description:
@@ -146,7 +148,7 @@ const AllPlacesData = [
   },
   {
     id: 10,
-    img: Img10,
+    images: [Img10, Img5, Img6],
     title: "Dehli Gate",
     location: "Lahore",
     description:
@@ -157,7 +159,7 @@ const AllPlacesData = [
   },
   {
     id: 11,
-    img: Img11,
+    images: [Img11, Img15, Img16],
     title: "Lahore Museum",
     location: "Lahore",
     description:
@@ -168,7 +170,7 @@ const AllPlacesData = [
   },
   {
     id: 12,
-    img: Img12,
+    images: [Img12, Img15, Img26],
     title: "Bagh-e-Jinnah",
     location: "Lahore",
     description:
@@ -181,7 +183,7 @@ const AllPlacesData = [
   // --- Shopping Places (12) ---
   {
     id: 13,
-    img: Img13, // Placeholder
+    images: [Img13, Img15, Img16], // Placeholder
     title: "Anarkali Bazaar",
     location: "Lahore",
     description:
@@ -192,7 +194,7 @@ const AllPlacesData = [
   },
   {
     id: 14,
-    img: Img14, // Placeholder
+    images: [Img11, Img23, Img16], // Placeholder
     title: "Liberty Market",
     location: "Lahore",
     description:
@@ -203,7 +205,7 @@ const AllPlacesData = [
   },
   {
     id: 15,
-    img: Img15, // Placeholder
+    images: [Img15, Img14, Img20],
     title: "Packages Mall",
     location: "Lahore",
     description:
@@ -214,7 +216,7 @@ const AllPlacesData = [
   },
   {
     id: 16,
-    img: Img16, // Placeholder
+    images: [Img16, Img15, Img26],
     title: "Emporium Mall",
     location: "Lahore",
     description:
@@ -225,7 +227,7 @@ const AllPlacesData = [
   },
   {
     id: 17,
-    img: Img17, // Placeholder
+    images: [Img17, Img16, Img19],
     title: "Fortress Square",
     location: "Lahore",
     description:
@@ -236,7 +238,7 @@ const AllPlacesData = [
   },
   {
     id: 18,
-    img: Img18, // Placeholder
+    images: [Img18, Img13, Img14],
     title: "Ichhra Bazaar",
     location: "Lahore",
     description:
@@ -247,7 +249,7 @@ const AllPlacesData = [
   },
   {
     id: 19,
-    img: Img19, // Placeholder
+    images: [Img19, Img15, Img16],
     title: "Shah Alam Market",
     location: "Lahore",
     description:
@@ -258,7 +260,7 @@ const AllPlacesData = [
   },
   {
     id: 20,
-    img: Img20, // Placeholder
+    images: [Img21, Img19, Img16],
     title: "Pace Shopping Mall",
     location: "Lahore",
     description:
@@ -269,7 +271,7 @@ const AllPlacesData = [
   },
   {
     id: 21,
-    img: Img21, // Placeholder
+    images: [Img21, Img17, Img16],
     title: "Xinhua Mall",
     location: "Lahore",
     description:
@@ -280,7 +282,7 @@ const AllPlacesData = [
   },
   {
     id: 22,
-    img: Img22, // Placeholder
+    images: [Img22, Img25, Img36],
     title: "Hafeez Center",
     location: "Lahore",
     description:
@@ -291,7 +293,7 @@ const AllPlacesData = [
   },
   {
     id: 23,
-    img: Img23, // Placeholder
+    images: [Img23, Img26, Img21],
     title: "Al-Fatah",
     location: "Lahore",
     description:
@@ -302,7 +304,7 @@ const AllPlacesData = [
   },
   {
     id: 24,
-    img: Img24, // Placeholder
+    images: [Img24, Img29, Img30],
     title: "Y-Block Market",
     location: "Lahore",
     description:
@@ -315,7 +317,7 @@ const AllPlacesData = [
   // --- Food Points (12) ---
   {
     id: 25,
-    img: Img25, // Placeholder
+    images: [Img25, Img35, Img36],
     title: "Gawalmandi Food Street",
     location: "Lahore",
     description:
@@ -326,7 +328,7 @@ const AllPlacesData = [
   },
   {
     id: 26,
-    img: Img26, // Placeholder
+    images: [Img26, Img31, Img34],
     title: "Fort Road Food Street",
     location: "Lahore",
     description:
@@ -337,7 +339,7 @@ const AllPlacesData = [
   },
   {
     id: 27,
-    img: Img27, // Placeholder
+    images: [Img27, Img25, Img36],
     title: "Lakshmi Chowk",
     location: "Lahore",
     description:
@@ -348,7 +350,7 @@ const AllPlacesData = [
   },
   {
     id: 28,
-    img: Img28, // Placeholder
+    images: [Img28, Img35, Img26],
     title: "Butt Karahi",
     location: "Lahore",
     description:
@@ -359,7 +361,7 @@ const AllPlacesData = [
   },
   {
     id: 29,
-    img: Img29, // Placeholder
+    images: [Img29, Img36, Img26],
     title: "Phajje de Paye",
     location: "Lahore",
     description:
@@ -370,7 +372,7 @@ const AllPlacesData = [
   },
   {
     id: 30,
-    img: Img30, // Placeholder
+    images: [Img30, Img35, Img26],
     title: "Al-Fazal Foods",
     location: "Lahore",
     description:
@@ -381,7 +383,7 @@ const AllPlacesData = [
   },
   {
     id: 31,
-    img: Img31, // Placeholder
+    images: [Img31, Img35, Img26],
     title: "Amritsari Hareesa",
     location: "Lahore",
     description:
@@ -392,7 +394,7 @@ const AllPlacesData = [
   },
   {
     id: 32,
-    img: Img32, // Placeholder
+    images: [Img2, Img35, Img36],
     title: "Goga Naqeebia",
     location: "Lahore",
     description:
@@ -403,7 +405,7 @@ const AllPlacesData = [
   },
   {
     id: 33,
-    img: Img33, // Placeholder
+    images: [Img33, Img27, Img35],
     title: "Waris Nihari",
     location: "Lahore",
     description:
@@ -414,7 +416,7 @@ const AllPlacesData = [
   },
   {
     id: 34,
-    img: Img34, // Placeholder
+    images: [Img34, Img36, Img31],
     title: "Yasir Broast",
     location: "Lahore",
     description:
@@ -425,7 +427,7 @@ const AllPlacesData = [
   },
   {
     id: 35,
-    img: Img35, // Placeholder
+    images: [Img5, Img29, Img34],
     title: "Benazir Kulfa",
     location: "Lahore",
     description:
@@ -436,7 +438,7 @@ const AllPlacesData = [
   },
   {
     id: 36,
-    img: Img36, // Placeholder
+    images: [Img36, Img32, Img31],
     title: "Arif Chatkhara",
     location: "Lahore",
     description:
@@ -448,8 +450,10 @@ const AllPlacesData = [
 ];
 
 const Places = () => {
-  // State to manage the selected place for the popup
+  // --- NEW: Expanded state to manage both popups ---
   const [selectedPlace, setSelectedPlace] = useState(null);
+  const [isDescriptionOpen, setIsDescriptionOpen] = useState(false);
+  const [isMapOpen, setIsMapOpen] = useState(false);
 
   const historicalPlaces = AllPlacesData.filter(
     (place) => place.type === "Historical"
@@ -459,14 +463,23 @@ const Places = () => {
   );
   const foodPoints = AllPlacesData.filter((place) => place.type === "Food");
 
-  // Handler to open the popup
+  // --- UPDATED: This now opens the main detail popup ---
   const handleLocationClick = (place) => {
     setSelectedPlace(place);
+    setIsDescriptionOpen(true);
   };
 
-  // Handler to close the popup
-  const handleClosePopup = () => {
+  // --- NEW: Handler to switch from description popup to map popup ---
+  const handleShowMap = () => {
+    setIsDescriptionOpen(false);
+    setIsMapOpen(true);
+  };
+
+  // --- NEW: Handler to close all popups ---
+  const handleCloseAllPopups = () => {
     setSelectedPlace(null);
+    setIsDescriptionOpen(false);
+    setIsMapOpen(false);
   };
 
   return (
@@ -476,8 +489,6 @@ const Places = () => {
           <h1 className="my-8 ml-1 border-l-8 border-sky-700 py-2 pl-2 text-3xl font-bold">
             Places to Visit
           </h1>
-
-          {/* Pass the handler function to each section */}
           <PlaceCategorySection
             title="Historical Places"
             places={historicalPlaces}
@@ -496,9 +507,16 @@ const Places = () => {
         </div>
       </div>
 
-      {/* Conditionally render the popup here */}
-      {selectedPlace && (
-        <PlacePopup place={selectedPlace} onClose={handleClosePopup} />
+      {/* --- NEW: Conditionally render the popups here --- */}
+      {isDescriptionOpen && selectedPlace && (
+        <PlaceDetailPopup
+          place={selectedPlace}
+          onClose={handleCloseAllPopups}
+          onShowMap={handleShowMap}
+        />
+      )}
+      {isMapOpen && selectedPlace && (
+        <MapPopup place={selectedPlace} onClose={handleCloseAllPopups} />
       )}
     </>
   );

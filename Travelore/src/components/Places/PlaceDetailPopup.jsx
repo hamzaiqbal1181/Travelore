@@ -2,18 +2,25 @@ import React, { useState } from "react";
 import { IoClose, IoNavigate } from "react-icons/io5";
 import { motion, AnimatePresence } from "framer-motion";
 
+// Note: MapPopup ko yahan se import karne ki zaroorat nahi hai
+
 const PlaceDetailPopup = ({ place, onClose, onShowMap }) => {
   // State to manage which image is currently featured in the gallery
   const [activeImage, setActiveImage] = useState(place.images[0]);
 
   return (
+    // Backdrop
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="fixed inset-0 bg-black bg-opacity-70 z-50 flex justify-center items-center p-4"
+      // --- THE FIX IS HERE ---
+      // 'items-center' ko hata kar 'pt-24' (padding-top) add kiya hai
+      // taake popup header ke neeche se shuru ho.
+      className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex justify-center pt-20 p-4"
       onClick={onClose}
     >
+      {/* Popup Container */}
       <motion.div
         initial={{ scale: 0.9, y: 50 }}
         animate={{ scale: 1, y: 0 }}
@@ -35,7 +42,7 @@ const PlaceDetailPopup = ({ place, onClose, onShowMap }) => {
           <div className="flex flex-col gap-4">
             <AnimatePresence mode="wait">
               <motion.img
-                key={activeImage} // This key triggers the animation when the image changes
+                key={activeImage}
                 src={activeImage}
                 alt={place.title}
                 initial={{ opacity: 0 }}
@@ -74,6 +81,7 @@ const PlaceDetailPopup = ({ place, onClose, onShowMap }) => {
             <div className="flex-grow overflow-y-auto pr-4 text-gray-600 text-lg leading-relaxed">
               <p>{place.description}</p>
             </div>
+            {/* Button ab 'onShowMap' ko call karega jo parent (Places.jsx) se aa raha hai */}
             <button
               onClick={onShowMap}
               className="mt-6 w-full bg-sky-600 text-white font-bold py-3 px-6 rounded-lg text-lg

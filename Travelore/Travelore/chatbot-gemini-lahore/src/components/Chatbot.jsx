@@ -1,28 +1,39 @@
-import React, { useState } from "react";
+// src/components/Chatbot.jsx
+import React, { useState, useEffect } from "react";
 import Message from "./Message";
 import { fetchHistoricalPlaces } from "../api/geminiApi";
+import ChatbotHistory from "./ChatbotHistory";
+import { auth } from "../firebaseConfig"; // adjust path to your firebase config
+import { onAuthStateChanged } from "firebase/auth";
 
 const Chatbot = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
 
   const handleSend = async () => {
-    if (input.trim() === "") return;
+    if (input.trim() === "" || !firebaseUid) return;
 
     const userMessage = { content: input, sender: "user" };
     setMessages((prev) => [...prev, userMessage]);
 
     try {
-      const response = await fetchHistoricalPlaces(input);
-      const botMessage = { content: response, sender: "bot" };
+      const response = await fetchHistoricalPlaces(input, firebaseUid);
+      const botMessage = { content: response.aiResponse, sender: "bot" };
       setMessages((prev) => [...prev, botMessage]);
     } catch (error) {
-      const errorMessage = { content: "Sorry, I couldn't fetch the information.", sender: "bot" };
+      const errorMessage = {
+        content: "Sorry, I couldn't fetch the information.",
+        sender: "bot",
+      };
       setMessages((prev) => [...prev, errorMessage]);
     }
 
     setInput("");
   };
+
+  if (!firebaseUid) {
+    return <p>Please log in to use the chatbot.</p>;
+  }
 
   return (
     <div className="chatbot-container">
@@ -39,7 +50,13 @@ const Chatbot = () => {
           placeholder="Ask about historical places in Lahore..."
           className="input-field"
         />
-        <button onClick={handleSend} className="send-button">Send</button>
+        <button
+          onClick={handleSend}
+          className="send-button"
+          disabled={!firebaseUid}
+        >
+          Send
+        </button>
       </div>
     </div>
   );

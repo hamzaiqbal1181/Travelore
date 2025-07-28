@@ -2,25 +2,29 @@ import React, { useState } from "react";
 import { sendPasswordResetEmail } from "firebase/auth";
 import { auth } from "../firebase"; // Make sure this path is correct
 import { Link } from "react-router-dom";
+import { MdEmail } from "react-icons/md"; // Email icon
+
+// --- BACKGROUND IMAGE ---
+// Using a different image for variety
+import BgImage from "../assets/places/mosque.jpg";
 
 const ForgotPassword = () => {
+  // --- AAPKA PURANA LOGIC BILKUL WAISE HI HAI ---
+  // Ismein koi change nahi kiya gaya hai.
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
-  const [isLoading, setIsLoading] = useState(false); // --- 1. ADDED: New state for loading ---
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleResetPassword = async (e) => {
     e.preventDefault();
     setMessage("");
     setError("");
-
     if (!email) {
       setError("Please enter your email address.");
       return;
     }
-
-    setIsLoading(true); // --- 2. ADDED: Set loading to true when the process starts ---
-
+    setIsLoading(true);
     try {
       await sendPasswordResetEmail(auth, email);
       setMessage(
@@ -33,71 +37,71 @@ const ForgotPassword = () => {
       );
       console.error("Password Reset Error:", err);
     } finally {
-      setIsLoading(false); // --- 3. ADDED: Set loading to false after success OR failure ---
+      setIsLoading(false);
     }
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <form
-        onSubmit={handleResetPassword}
-        className="bg-white p-8 rounded shadow-md w-full max-w-md"
-      >
-        <h2 className="text-2xl font-bold mb-6 text-center">
-          Reset Your Password
-        </h2>
+    // --- NAYA, MODERN UI (SignIn/SignUp se match karta hua) ---
+    <div
+      className="flex flex-col items-center justify-center min-h-screen w-full bg-cover bg-center"
+      style={{ backgroundImage: `url(${BgImage})` }}
+    >
+      {/* Glassmorphism Form Card */}
+      <div className="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-2xl border border-white/20 w-full max-w-md">
+        <div className="text-center text-white mb-8">
+          <h1 className="text-4xl font-bold">Travelore</h1>
+          <p className="mt-2 text-gray-200">Reset Your Password</p>
+        </div>
 
-        {message && (
-          <div className="text-green-600 mb-4 bg-green-100 p-3 rounded text-center">
-            {message}
+        <form onSubmit={handleResetPassword}>
+          {message && (
+            <div className="text-green-300 mb-4 bg-green-900/40 p-3 rounded text-center">
+              {message}
+            </div>
+          )}
+          {error && (
+            <div className="text-red-300 mb-4 bg-red-900/40 p-3 rounded text-center">
+              {error}
+            </div>
+          )}
+
+          <p className="text-gray-200 text-center mb-4 text-sm">
+            Don't worry! Just enter your email and we'll send you a reset link.
+          </p>
+
+          {/* Email Input with Icon */}
+          <div className="relative mb-6">
+            <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+              <MdEmail className="text-gray-300" />
+            </div>
+            <input
+              id="email"
+              type="email"
+              placeholder="your-email@provider.com"
+              className="w-full pl-10 px-4 py-2 bg-white/20 text-white placeholder-gray-300 border border-white/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-sky-400 transition-colors"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+              disabled={isLoading}
+            />
           </div>
-        )}
 
-        {error && (
-          <div className="text-red-500 mb-4 bg-red-100 p-3 rounded text-center">
-            {error}
-          </div>
-        )}
-
-        <p className="text-gray-600 text-center mb-4">
-          Enter your email address and we'll send you a link to get back into
-          your account.
-        </p>
-
-        <div className="mb-4">
-          <label
-            className="block text-gray-700 text-sm font-bold mb-2"
-            htmlFor="email"
+          <button
+            type="submit"
+            className="w-full bg-sky-600 text-white py-2 rounded-lg hover:bg-sky-700 transition-colors mb-4 disabled:bg-sky-400/50"
+            disabled={isLoading}
           >
-            Email
-          </label>
-          <input
-            id="email"
-            type="email"
-            placeholder="your-email@provider.com"
-            className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-            disabled={isLoading} // --- 4. ADDED: Disable input while loading ---
-          />
-        </div>
+            {isLoading ? "Sending..." : "Send Reset Link"}
+          </button>
 
-        <button
-          type="submit"
-          className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 mb-4 transition-colors disabled:bg-blue-300"
-          disabled={isLoading} // --- 5. ADDED: Disable button while loading ---
-        >
-          {/* --- 6. ADDED: Change button text based on loading state --- */}
-          {isLoading ? "Sending..." : "Send Password Reset Link"}
-        </button>
-
-        <div className="text-center text-sm">
-          <Link to="/signin" className="text-blue-600 hover:underline">
-            Back to Sign In
-          </Link>
-        </div>
-      </form>
+          <div className="text-center text-sm text-gray-200">
+            <Link to="/signin" className="hover:text-white hover:underline">
+              Back to Sign In
+            </Link>
+          </div>
+        </form>
+      </div>
     </div>
   );
 };

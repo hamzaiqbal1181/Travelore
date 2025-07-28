@@ -3,6 +3,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import { FaStar } from "react-icons/fa";
 // --- NEW: Import animation tools from Framer Motion ---
 import { motion, AnimatePresence } from "framer-motion";
+import Location from "../location/Location";
 
 // --- Keep all your image imports ---
 import ImgQilla from "../../assets/bestplaces/qilla.jpg";
@@ -65,6 +66,8 @@ const topRatedPlaces = [
     // rating: 4.5,
     description:
       "Lahore Railway Station, built in 1860, is a historical landmark showcasing stunning Indo-Saracenic architecture. This bustling hub connects travelers to various destinations across Pakistan. The station features a remarkable clock tower and vibrant platforms, reflecting the city’s cultural heritage. Its location near the heart of Lahore makes it accessible, attracting both locals and tourists. As one of the busiest railway stations, it plays a pivotal role in the transportation network of the region.",
+    mapUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.6660646360588!2d74.31284847442842!3d31.588204043789645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b622e82346f%3A0x35bdc71e324cb4ec!2sLahore%20Fort!5e0!3m2!1sen!2s!4v1753000472161!5m2!1sen!2s",
   },
   {
     id: "bp6",
@@ -74,6 +77,8 @@ const topRatedPlaces = [
     // rating: 4.6,
     description:
       "Delhi Gate in Lahore, a historical monument, dates back to the Mughal era. It served as a crucial entry point to the city, linking the Walled City with the main road. The gate features stunning Mughal architecture, with intricate carvings and large bastions, reflecting the era's grandeur. Today, it stands as a symbol of Lahore's rich history and cultural heritage, attracting numerous visitors who admire its beauty and significance.",
+    mapUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.6660646360588!2d74.31284847442842!3d31.588204043789645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b622e82346f%3A0x35bdc71e324cb4ec!2sLahore%20Fort!5e0!3m2!1sen!2s!4v1753000472161!5m2!1sen!2s",
   },
   {
     id: "bp7",
@@ -83,6 +88,8 @@ const topRatedPlaces = [
     // rating: 4.6,
     description:
       "Anarkali Bazaar in Lahore has a rich history and is known for its vibrant culture. It offers a unique shopping experience with a variety of goods, from traditional clothing to exquisite handicrafts. This bustling market, named after the legendary Anarkali, provides a glimpse into the city's heritage. Visitors enjoy the lively atmosphere, delicious street food, and the chance to interact with local vendors. Anarkali Bazaar captures the essence of Lahore's charm and is a must-visit destination",
+    mapUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.6660646360588!2d74.31284847442842!3d31.588204043789645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b622e82346f%3A0x35bdc71e324cb4ec!2sLahore%20Fort!5e0!3m2!1sen!2s!4v1753000472161!5m2!1sen!2s",
   },
   {
     id: "bp8",
@@ -92,6 +99,8 @@ const topRatedPlaces = [
     // rating: 4.6,
     description:
       "Ichhra Bazaar in Lahore has a rich history and is a vibrant marketplace known for its unique blend of traditional and contemporary items. Dating back to the Mughal era, the bazaar is famous for textiles, handicrafts, and street food that captures the essence of local culture. With its bustling atmosphere, Ichhra Bazaar attracts both locals and tourists, offering an immersive shopping experience that reflects Lahore's heritage.",
+    mapUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.6660646360588!2d74.31284847442842!3d31.588204043789645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b622e82346f%3A0x35bdc71e324cb4ec!2sLahore%20Fort!5e0!3m2!1sen!2s!4v1753000472161!5m2!1sen!2s",
   },
   {
     id: "bp9",
@@ -101,6 +110,8 @@ const topRatedPlaces = [
     // rating: 4.6,
     description:
       "Lakshmi Chowk in Lahore is a vibrant historical marketplace known for its cultural significance and culinary delights. Established during British colonial rule, it has evolved into a lively hub for shopping and dining. The area is characterized by its unique blend of traditional and modern architecture, drawing both locals and tourists. Visitors can explore a variety of shops, food stalls, and eateries, making it a popular destination for authentic Pakistani cuisine and experience local culture.",
+    mapUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.6660646360588!2d74.31284847442842!3d31.588204043789645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b622e82346f%3A0x35bdc71e324cb4ec!2sLahore%20Fort!5e0!3m2!1sen!2s!4v1753000472161!5m2!1sen!2s",
   },
   {
     id: "bp10",
@@ -110,6 +121,8 @@ const topRatedPlaces = [
     // rating: 4.6,
     description:
       "Lakshmi Chowk in Lahore is a vibrant historical marketplace known for its cultural significance and culinary delights. Established during British colonial rule, it has evolved into a lively hub for shopping and dining. The area is characterized by its unique blend of traditional and modern architecture, drawing both locals and tourists. Visitors can explore a variety of shops, food stalls, and eateries, making it a popular destination for authentic Pakistani cuisine and experience local culture.",
+    mapUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.6660646360588!2d74.31284847442842!3d31.588204043789645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b622e82346f%3A0x35bdc71e324cb4ec!2sLahore%20Fort!5e0!3m2!1sen!2s!4v1753000472161!5m2!1sen!2s",
   },
 ];
 
@@ -193,6 +206,9 @@ const BestPlaces = () => {
               </motion.div>
             ))}
           </div>
+        </div>
+        <div className="mt-20">
+          <Location place={activePlace} />
         </div>
       </div>
     </div>

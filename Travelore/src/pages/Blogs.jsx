@@ -4,7 +4,7 @@ import BlogsComp from "../components/Blogs/BlogsComp";
 const Blogs = () => {
   return (
     <>
-      <div className="pt-8 bg-gray-100">
+      <div className="pt-18 bg-gray-100">
         <BlogsComp />
       </div>
     </>

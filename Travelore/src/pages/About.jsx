@@ -18,7 +18,7 @@ const About = () => {
   const profileImage = ProfilePic;
 
   return (
-    <div className="bg-gray-50 text-gray-800">
+    <div className="bg-gray-50 text-gray-800 pt-11">
       {/* 1. Hero Section */}
       // This is JUST the header part. Use this to replace your old header if
       you prefer this style.

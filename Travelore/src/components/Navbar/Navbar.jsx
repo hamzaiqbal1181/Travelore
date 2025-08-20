@@ -1,4 +1,4 @@
-// File: src/components/Navbar/Navbar.jsx (Updated Version)
+
 
 import React, { useState, useEffect, useRef } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";

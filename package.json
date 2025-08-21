@@ -1,5 +1,15 @@
 {
+  "name": "travel-web-root",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd my-node-mongo-app && npm start",
+    "client": "cd Travelore && npm run dev"
+  },
   "dependencies": {
     "react-markdown": "^10.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
   }
 }

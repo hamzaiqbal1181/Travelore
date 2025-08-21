@@ -37,8 +37,8 @@ const BlogsComp = () => {
   return (
     <>
       <div>
-        <div className="container">
-          <h1 className="my-8 ml-10 border-l-8 border-sky-700 py-2 pl-2 text-3xl font-bold">
+        <div className="container pl-15">
+          <h1 className="my-8 ml-10 border-l-8 border-sky-700 py-2 text-3xl font-bold">
             Our Latest Blogs
           </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">

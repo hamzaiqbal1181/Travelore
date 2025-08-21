@@ -81,12 +81,13 @@ const SearchHistory = () => {
 
   return (
     <div
-      style={{
-        padding: "1rem",
-        maxWidth: "800px",
-        margin: "0 auto",
-        backgroundColor: "#1e1f22", // Change the background color here
-      }}
+      className="container mx-auto p-4 pt-24"
+      // style={{
+      //   padding: "1rem",
+      //   maxWidth: "800px",
+      //   margin: "0 auto",
+      //   backgroundColor: "#1e1f22", // Change the background color here
+      // }}
     >
       <h2>📚 Search History</h2>
 
